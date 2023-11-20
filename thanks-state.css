@@ -1,0 +1,50 @@
+.hide{
+    display: none;
+}
+
+#thankYouState{
+    flex-direction: column;
+    text-align: center;
+}
+#thankYouState img{
+    margin-top: 1rem;
+}
+
+.you-selected-con{
+    background: hsla(255, 100%, 100%, 0.05);
+    width: 20rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+p#youSelected{
+    margin: 0;
+    color: var(--Orange);
+    font-size: 1.4rem;
+    transform: translateY(.5rem);
+    font-weight: 400;
+}
+.thank-note{
+    font-size: 1.55rem !important;
+}
+
+@media screen and (max-width: 375px) {
+    p#youSelected{
+        transform: translateY(1rem);
+    }
+    .you-selected-con{
+        margin-top: 2.7rem;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding-inline: 1.3rem;
+        height: 3.5rem;
+    }
+    #thankYouState h1{
+        font-size: 2.4rem;
+        margin-top: 2.4rem;
+    }
+    .thank-note{
+        font-size: 1.5rem !important;
+        margin-top: 2.2rem !important;
+    }
+}

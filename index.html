@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="main-style.css">
+  <link rel="stylesheet" href="question-state.css">
+  <link rel="stylesheet" href="thanks-state.css">
+</head>
+<body>
+  <div class="container center-content">
+    <div class="card">
+
+
+      <!-- User input -->
+      <div class="" id="questionState">
+        <div class="circle center-content">
+          <img src="icon-star.svg" alt="star">
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+
+        <!-- Form design -->
+        <form class="center-content" id="form">
+          <div class="ratings">
+            <label class="rating-container">
+              <input class="rating circle center-content" type="radio" name="rating" id="rating1" value="1" required>
+              <span>1</span>
+            </label>       
+            <label class="rating-container">
+              <input class="rating circle center-content" type="radio" name="rating" id="rating2" value="2" required>
+              <span>2</span>
+            </label>
+            <label class="rating-container">
+              <input class="rating circle center-content" type="radio" name="rating" id="rating3" value="3" required>
+              <span>3</span>
+            </label> 
+            <label class="rating-container">
+              <input class="rating circle center-content" type="radio" name="rating" id="rating4" value="4" required>
+              <span>4</span>
+            </label>
+            <label class="rating-container"><span>5</span>
+              <input class="rating circle center-content" type="radio" name="rating" id="rating5" value="5" required>
+              <span>5</span>
+            </label>
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+
+      <!-- Thank you card -->
+      <div id="thankYouState" class="hide center-content">
+        <img src="illustration-thank-you.svg" alt="Thank You">
+        <div class="you-selected-con">
+          <p id="youSelected">You selected 4 out of 5</p>
+        </div>
+        <h1>Thank you!</h1>
+        <p class="thank-note">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
