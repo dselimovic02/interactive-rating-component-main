@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/dselimovic02/interactive-rating-component-main)](https://your-solution-url.com)
-- Live Site URL: [[Add live site URL here](https://dselimovic02.github.io/interactive-rating-component-main/)](https://your-live-site-url.com)
+- Solution URL: (https://github.com/dselimovic02/interactive-rating-component-main)
+- Live Site URL: (https://dselimovic02.github.io/interactive-rating-component-main/)
 
 ## My process
 
